@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0 15%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Meus-produtos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Meus-produtos a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    border-bottom: solid #333 3px;
+    margin: 0 10px;
+}
+
+
+
+.comprar {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    background-color: rgb(60, 255, 0);
+    padding: 12px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.nome-do-produto {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.desc-produto {
+    text-align: left;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    width: 100%;
+}
+
+h2, h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+/* 📱 Melhor responsividade para telas menores */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 5%;
+    }
+
+    .foto {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .comprar {
+        font-size: 22px;
+        padding: 10px 16px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .desc-produto {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    h2, h3 {
+        font-size: 18px;
+    }
+
+    p, ul li {
+        font-size: 16px;
+    }
+}
