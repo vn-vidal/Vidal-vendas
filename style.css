@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 0 15%;
+    padding: 2% 15%;
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -28,6 +28,10 @@ body {
     margin: 0 10px;
 }
 
+.Meus-produtos a:hover {
+    color: orangered;
+    border-color: orangered;
+}
 
 
 .comprar {
